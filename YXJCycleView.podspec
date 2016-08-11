@@ -10,9 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "YXJCycleView"
   s.version          = "0.0.1"
-  s.summary          = "超级好用的倒计时Button"
+  s.summary          = "可能是史上最好用的循环视图框架。本地图片轮播图，远程图片轮播图，本地任意视图轮播图，app介绍页样样在行。支持缓存"
   s.description      = <<-DESC
-                        超级好用的倒计时Button
+                       任意视图的无限循环轮播图，可以是本地图片，可以是任意的view，可以是远程图片，再加文字描述岂不更好，pageController也支持高度自定义。几乎可以满足所有循环视图的需求，不仅是轮播组件，做app首次安装或者更新的介绍页也照样能胜任。支持缓存
                        DESC
   s.homepage         = "https://github.com/stubbornnessness"
   s.screenshots      = "http://120.27.93.73/files/myPublicProject/YXJCycleView1.gif"
@@ -29,6 +29,8 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/*.{h,m}'
   s.public_header_files = 'Pod/*.h'
   #s.resource = 'pod/*.bundle'
+
+  s.dependency 'YXJPageController'
   
   s.frameworks = 'UIKit'
 

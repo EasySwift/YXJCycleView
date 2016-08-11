@@ -20,5 +20,10 @@
   "module_name": "YXJCycleView",
   "source_files": "Pod/*.{h,m}",
   "public_header_files": "Pod/*.h",
+  "dependencies": {
+    "YXJPageController": [
+
+    ]
+  },
   "frameworks": "UIKit"
 }

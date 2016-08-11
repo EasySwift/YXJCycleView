@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		99B2913BC341BB31959F8009 /* Pods_YXJCycleViewTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5C9F262C2CE3800F7B3CB3 /* Pods_YXJCycleViewTest.framework */; };
+		DE3CC6951D5C438A00344B61 /* YXJCycleView1.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE3CC6941D5C438A00344B61 /* YXJCycleView1.gif */; };
 		DED5D58F1D5B7B04005A7F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5D58E1D5B7B04005A7F67 /* AppDelegate.swift */; };
 		DED5D5911D5B7B04005A7F67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED5D5901D5B7B04005A7F67 /* ViewController.swift */; };
 		DED5D5941D5B7B04005A7F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED5D5921D5B7B04005A7F67 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		48526E60BCABB1E619FFCEA8 /* Pods-YXJCycleViewTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJCycleViewTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXJCycleViewTest/Pods-YXJCycleViewTest.debug.xcconfig"; sourceTree = "<group>"; };
 		7D9C50E8E3ED838B9890EF07 /* Pods-YXJCycleViewTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXJCycleViewTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXJCycleViewTest/Pods-YXJCycleViewTest.release.xcconfig"; sourceTree = "<group>"; };
 		AE5C9F262C2CE3800F7B3CB3 /* Pods_YXJCycleViewTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXJCycleViewTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3CC6941D5C438A00344B61 /* YXJCycleView1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YXJCycleView1.gif; sourceTree = "<group>"; };
 		DED5D58B1D5B7B04005A7F67 /* YXJCycleViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXJCycleViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED5D58E1D5B7B04005A7F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DED5D5901D5B7B04005A7F67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		DED5D58D1D5B7B04005A7F67 /* YXJCycleView */ = {
 			isa = PBXGroup;
 			children = (
+				DE3CC6941D5C438A00344B61 /* YXJCycleView1.gif */,
 				DED5D58E1D5B7B04005A7F67 /* AppDelegate.swift */,
 				DED5D5901D5B7B04005A7F67 /* ViewController.swift */,
 				DED5D5921D5B7B04005A7F67 /* Main.storyboard */,
@@ -149,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3CC6951D5C438A00344B61 /* YXJCycleView1.gif in Resources */,
 				DED5D5991D5B7B04005A7F67 /* LaunchScreen.storyboard in Resources */,
 				DED5D5961D5B7B04005A7F67 /* Assets.xcassets in Resources */,
 				DED5D5941D5B7B04005A7F67 /* Main.storyboard in Resources */,
