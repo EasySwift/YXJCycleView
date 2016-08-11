@@ -1,0 +1,6 @@
+framework module YXJCycleView {
+  umbrella header "YXJCycleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

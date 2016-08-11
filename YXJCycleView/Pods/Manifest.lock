@@ -1,0 +1,16 @@
+PODS:
+  - YXJCycleView (0.0.1)
+
+DEPENDENCIES:
+  - YXJCycleView (from `../`)
+
+EXTERNAL SOURCES:
+  YXJCycleView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YXJCycleView: d334bf8248914a0792a14264f017249d86e9c2b9
+
+PODFILE CHECKSUM: c9838efd0c1dbccb8f07f4f0b892bb206bdd6b7e
+
+COCOAPODS: 1.0.1
