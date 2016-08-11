@@ -20,7 +20,7 @@
 * 可以用作app介绍页
 
 ### ScreenShot
-![image](http://120.27.93.73/files/myPublicProject/YXJCycleView11.png)
+![image](http://120.27.93.73/files/myPublicProject/YXJCycleView1.gif)
 
 ## System Requirements
 iOS 8.0 or above
