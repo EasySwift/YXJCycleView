@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <YXJPageController/YXJPageControl.h>
+#import "YXJPageControl.h"
 
 typedef enum {
     YXJCycleScrollViewPageContolAlimentCenter,

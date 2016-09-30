@@ -10,12 +10,12 @@ import UIKit
 import YXJCycleView
 
 var ScreenWidth: CGFloat {
-    return UIScreen.mainScreen().bounds.width
+    return UIScreen.main.bounds.width
 }
 
 class ViewController: UIViewController, YXJCycleScrollViewDelegate {
 
-    private var cycleView: YXJCycleScrollView?
+    fileprivate var cycleView: YXJCycleScrollView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,12 +42,12 @@ class ViewController: UIViewController, YXJCycleScrollViewDelegate {
     func loadLocalImg() {
         self.cycleView = YXJCycleScrollView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: 150))
         self.view.addSubview(self.cycleView!)
-        self.cycleView?.backgroundColor = UIColor.whiteColor()
+        self.cycleView?.backgroundColor = UIColor.white
         self.cycleView?.autoScroll = false
         self.cycleView?.infiniteLoop = false
         self.cycleView?.delegate = self
         self.cycleView?.localizationImagesGroup = [UIImage.init(named: "init1")!, UIImage.init(named: "init2")!, UIImage.init(named: "init3")!, UIImage.init(named: "init4")!, UIImage.init(named: "init5")!]
-        self.cycleView?.pageControl.dotColor = UIColor.whiteColor()
+        self.cycleView?.pageControl.dotColor = UIColor.white
     }
 
     /**
@@ -56,22 +56,22 @@ class ViewController: UIViewController, YXJCycleScrollViewDelegate {
     func loadLocalView() {
         self.cycleView = YXJCycleScrollView(frame: CGRect(x: 0, y: 160, width: ScreenWidth, height: 150))
         self.view.addSubview(self.cycleView!)
-        self.cycleView?.backgroundColor = UIColor.whiteColor()
+        self.cycleView?.backgroundColor = UIColor.white
         self.cycleView?.autoScroll = false
         self.cycleView?.infiniteLoop = false
         self.cycleView?.delegate = self
 
         let v1 = UIView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: 150))
-        v1.backgroundColor = UIColor.brownColor()
+        v1.backgroundColor = UIColor.brown
         let v2 = UIView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: 150))
-        v2.backgroundColor = UIColor.purpleColor()
+        v2.backgroundColor = UIColor.purple
         let v3 = UIView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: 150))
-        v3.backgroundColor = UIColor.orangeColor()
+        v3.backgroundColor = UIColor.orange
         let v4 = UIView(frame: CGRect(x: 0, y: 0, width: ScreenWidth, height: 150))
-        v4.backgroundColor = UIColor.magentaColor()
+        v4.backgroundColor = UIColor.magenta
 
         self.cycleView?.views = [v1, v2, v3, v4]
-        self.cycleView?.pageControl.dotColor = UIColor.whiteColor()
+        self.cycleView?.pageControl.dotColor = UIColor.white
     }
 
     /**
@@ -80,7 +80,7 @@ class ViewController: UIViewController, YXJCycleScrollViewDelegate {
     func loadURLImg() {
         self.cycleView = YXJCycleScrollView(frame: CGRect(x: 0, y: 320, width: ScreenWidth, height: 150))
         self.view.addSubview(self.cycleView!)
-        self.cycleView?.backgroundColor = UIColor.whiteColor()
+        self.cycleView?.backgroundColor = UIColor.white
         self.cycleView?.autoScroll = true
         self.cycleView?.autoScrollTimeInterval = 3
         self.cycleView?.infiniteLoop = true
@@ -98,14 +98,14 @@ class ViewController: UIViewController, YXJCycleScrollViewDelegate {
             "第三张图片的描述",
             "第四张图片的描述"
         ]
-        self.cycleView?.pageControl.dotColor = UIColor.whiteColor()
+        self.cycleView?.pageControl.dotColor = UIColor.white
     }
 
     // MARK:cycle
-    func cycleScrollView(cycleScrollView: YXJCycleScrollView!, didSelectItemAtIndex index: Int) {
+    func cycleScrollView(_ cycleScrollView: YXJCycleScrollView!, didSelectItemAt index: Int) {
         print(index)
     }
-    func cycleScrollView(cycleScrollView: YXJCycleScrollView!, didSwipeItemAtIndex index: Int) {
+    func cycleScrollView(_ cycleScrollView: YXJCycleScrollView!, didSwipeItemAt index: Int) {
         print(index)
     }
 
